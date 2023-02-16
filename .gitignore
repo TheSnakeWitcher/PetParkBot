@@ -1,0 +1,9 @@
+# directories
+bin/
+
+
+# files
+.envrc
+
+
+# regular expressions

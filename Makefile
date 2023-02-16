@@ -1,0 +1,9 @@
+
+build_android:
+	go env -w GOOS=android GOARCH=arm64 go build ./...
+
+build_linux:
+	go env -w GOOS=linux GOARCH=amd64 && go build ./...
+
+run:
+	go run ./...
